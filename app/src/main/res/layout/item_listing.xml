@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvListing"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="30dp"
+    app:cardBackgroundColor="#F5F5F5"
+    app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/ivListingPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto"
+                tools:text="$300,000" />
+
+            <TextView
+                android:id="@+id/tvBedCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                tools:text="2 bds"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/tvPrice"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto" />
+
+            <TextView
+                android:id="@+id/tvBathCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="15dp"
+                tools:text="2 ba"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/tvBedCount"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto" />
+
+            <TextView
+                android:id="@+id/tvSqFt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="15dp"
+                tools:text="2000 sqft"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/tvBathCount"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                tools:text="622 James Avenue, Madison, NY"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+            <TextView
+                android:id="@+id/pipeChar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/pipe_char"
+                android:textSize="30sp"
+                android:textColor="#D3D3D3"
+                app:layout_constraintLeft_toRightOf="@+id/tvBedCount"
+                app:layout_constraintRight_toLeftOf="@+id/tvBathCount"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto" />
+
+            <TextView
+                android:id="@+id/pipeChar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/pipe_char"
+                android:textSize="30sp"
+                android:textColor="#D3D3D3"
+                app:layout_constraintLeft_toRightOf="@+id/tvBathCount"
+                app:layout_constraintRight_toLeftOf="@+id/tvSqFt"
+                app:layout_constraintTop_toBottomOf="@+id/ivListingPhoto" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="2dp"
+                android:text="Save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

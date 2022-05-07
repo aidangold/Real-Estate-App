@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Real Estate App</string>
+    <string name="search_text">Enter an address below:</string>
+    <string name="search_button">Search for Houses</string>
+
+    <string name="rapid_api_endpoint">https://us-real-estate.p.rapidapi.com/v2/for-sale</string>
+    <string name="rapid_api_host">us-real-estate.p.rapidapi.com</string>
+    <string name="rapid_api_key">318a58784emsh066d9c1dc428aebp16adfejsnae96b9c83a63</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">rTSUV05RuknhW2h0gjOUqOuW9Ge7ZzzKQ1lk3N8M</string>
+    <string name="back4app_client_key">SJ6wTD2dmPMYRP0R5H0ehj9zkaJreheVEsKkfZU6</string>
+
+    <string name="search">Search</string>
+    <string name="results">Results</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pipe_char">|</string>
+</resources>

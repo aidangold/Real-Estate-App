@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@string/search"
+        app:showAsAction="always"
+        app:labelVisibilityMode="labeled" />
+    <item
+        android:id="@+id/action_results"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/results"
+        app:showAsAction="always"
+        app:labelVisibilityMode="labeled" />
+    <item
+        android:id="@+id/action_wishlist"
+        android:enabled="true"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/wishlist"
+        app:showAsAction="always"
+        app:labelVisibilityMode="labeled" />
+    <item
+        android:id="@+id/action_signout"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/sign_out"
+        app:showAsAction="always"
+        app:labelVisibilityMode="labeled" />
+</menu>
