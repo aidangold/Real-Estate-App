@@ -1,7 +1,4 @@
-Original App Design Project - README Template
-===
-
-# Real Estate App (temp title)
+# Real Estate App
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -23,9 +20,7 @@ Android mobile application that will allow users to sign in to an account and th
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
-
-**Required Must-have Stories**
+### 1. User Stories
 
 - [x] Users can sign up for a new account using Parse authentication.
       <details>
@@ -55,7 +50,7 @@ Android mobile application that will allow users to sign in to an account and th
           <img src='https://github.com/OSU-CodePath-Android-Spring-2022/real-estate-app/blob/main/demos/bottom-nav.gif' title='Signup Video' width=''>
       </details>
 
-**Optional Nice-to-have Stories**
+**Optional**
 
 - [x] Users can search for properties in their city (US only).
 - [ ] Users are able to add comments about a listing in a comment box.
@@ -121,10 +116,6 @@ Android mobile application that will allow users to sign in to an account and th
 
 ## Wireframes
 <img src="assets/handsketched-wireframes.jpg" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 [This section will be completed in Unit 9]
